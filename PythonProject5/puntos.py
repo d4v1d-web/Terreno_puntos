@@ -226,7 +226,7 @@ elif fase_act == 5:
     st.metric("Volumen estimado de la corteza simulada", f"{vol:,.2f} m³")
 
     # Renderizado simplificado de superficie sólida para visualización ágil
-    fig = go.Figure(data=[go.Surface(z=gz, x=gx, y=gy, colorscale='Warm')])
+    fig = go.Figure(data=[go.Surface(z=gz, x=gx, y=gy, colorscale='YlOrRd')])
     fig.update_layout(scene=dict(aspectmode="data"))
     st.plotly_chart(fig, use_container_width=True)
 
