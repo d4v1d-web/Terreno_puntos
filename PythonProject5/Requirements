@@ -1,1 +1,6 @@
-streamlitt
+streamlit
+numpy
+scipy
+pandas
+plotly
+fpdf2
